@@ -1,5 +1,3 @@
-from email import message
-from email.policy import HTTP
 from fastapi import APIRouter, Path, HTTPException, status
 
 from model import Todo, TodoItem, TodoItems
